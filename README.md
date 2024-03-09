@@ -1,3 +1,7 @@
+# IT5007-Lecture7
+This lecture teaches you how to use GraphQL queries and further, how to setup a GraphQL server that provides API services to others. Follow the commits to see how the code is built incrementally.
+
+This assignment uses Lecture 5 as the base code. If you have already setup your projects, you do not have to follow the instructions below:
 # IT5007-Lecture5
 
 * Download the docker image from [https://mynbox.nus.edu.sg/u/vETX5anE1_GuRNfB/ac7a0cb7-3c49-4b0d-91c1-8deaf0244862?l]
