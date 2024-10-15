@@ -47,7 +47,8 @@ class GraphQLAPILecture7 extends React.Component {
 		const data = await fetchGraphQLData ("https://graphql.anilist.co", query)
 		console.log(data.Page.media)
 		var listofanime = []
-		data.Page.media.forEach ( item => {listofanime.push(item.title.english)})
+		data.Page.media.forEach ( item => {listofanime.push(item.title.native)})
+		console.log(listofanime)
 		this.setState({anime: listofanime})
 	  }
 	  render() {
